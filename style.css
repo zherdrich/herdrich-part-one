@@ -1,0 +1,178 @@
+body {
+    font-family: work sans; font-weight: 600;
+    margin: 0%;
+}
+
+
+header {
+    background-color: #70a48b;
+text-align: center;
+padding-bottom: 30px;
+}
+
+#toplogo {
+    width: 50%;
+    padding-left: 15px;
+}
+
+h2 {
+    padding-left: 15px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 8%;
+    left: 15%;
+   border: white;
+   border-style: solid;
+   border-width: 3px;
+   border-radius: 9px;
+   padding: 20px;
+   margin: 3px;
+   width: 250px;
+}
+
+.navbuts {
+    background-color: #70a48b;
+    color: white;
+    border: none;
+    padding: 7px;
+}
+
+
+#donation {
+    background-color: #1f211c;
+    color: white;
+    border: #1f211c;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.cities {
+    background-color: #70a48b;
+    color: white;
+    border-color: black; 
+    border-style: solid; 
+    border-width: 2px;
+    border-radius: 9px;
+    padding: 15px;
+    margin: 3%;
+    width: 420px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+#motto {
+    margin: 30px;
+    padding-bottom: 80px;
+}
+
+.petpics {
+    border: none;
+    border-radius: 10px;
+}
+
+
+.petspace {
+    padding-right: 15px;
+}
+
+.group1 {
+    display: flex;
+    flex-direction: flex;
+}
+
+.group2 {
+    display: flex;
+}
+
+.group3 {
+    display: flex;
+}
+
+
+footer {
+    background-color: #70a48b;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+
+}
+
+#bottomlogo {
+    height: 50px;
+    width: 
+}
+
+@media screen and (min-width: 768px) {
+
+
+    header {
+        background-color: #70a48b;
+        text-align: left;
+        height: 50%;
+    }
+
+ #toplogo {
+     width: 400px;
+     height: 400px;
+
+ }   
+ .navigation {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 8%;
+    left: 85%;
+}
+
+    .cities {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .side-by-side-text {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    #colfriends {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #motto {
+        width: 30%;
+    }
+
+    #animals {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .group1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .group2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .group3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
